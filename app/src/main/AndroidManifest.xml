@@ -17,6 +17,7 @@
             android:name=".ListaActivity"
             android:exported="false" />
         <activity
+            android:theme="@style/Splash"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
