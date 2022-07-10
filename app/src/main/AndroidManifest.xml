@@ -14,12 +14,15 @@
         android:theme="@style/Theme.KotlinCRUD"
         tools:targetApi="31">
         <activity
+            android:name=".NuevoActivity"
+            android:exported="false" />
+        <activity
             android:name=".ListaActivity"
             android:exported="false" />
         <activity
-            android:theme="@style/Splash"
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
